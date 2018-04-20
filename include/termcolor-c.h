@@ -31,6 +31,10 @@
 #ifndef _TERMCOLOR_C_H_
 #define _TERMCOLOR_C_H_
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #if !(defined(__unix__) || defined(__unix) || (defined(__APPLE__) && defined(__MACH__)))
 #error Your platform is currently unsupported
 #endif
@@ -123,5 +127,9 @@ void reset_colors(FILE* stream) {
         fputs(ANSI_CODE_RESET, stream);
     }
 }
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif /* _TERMCOLOR_C_H_ */
