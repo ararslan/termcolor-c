@@ -1,0 +1,9 @@
+{
+    "name": "termcolor-c",
+    "version": "0.1.0",
+    "repo": "ararslan/termcolor-c",
+    "description": "A header-only ANSI C library for writing colored text to the terminal",
+    "keywords": ["termcolor", "color", "terminal", "header-only", "utils"],
+    "license": "2-Clause BSD",
+    "src": ["include/termcolor-c.h"]
+}
