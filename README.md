@@ -12,6 +12,7 @@ Note that unlike Termcolor, Windows is not yet supported here.
 ## Usage
 
 Add `termcolor-c.h` to your project and `#include` it.
+The library is also installable using [clib](https://github.com/clibs/clib).
 
 The idea behind termcolor, which is mimicked in termcolor-c, is to manipulate the
 underlying stream to which text is written.
